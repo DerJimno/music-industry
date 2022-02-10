@@ -7,7 +7,7 @@ body{
 /* 1/5 */
 
 .header{
-    background: rgb(8, 37, 54);
+    background: rgb(28, 29, 25);
     height: 540px;
     display: flex;
 }
@@ -59,7 +59,7 @@ a{
     
 .imga{
     width: 500px;
-    height: 240px;
+    height: 270px;
     margin-top: -20px;
 }
 
@@ -130,11 +130,11 @@ a{
 
 .warn{
     display: flex;
-    background: #3882f6;
+    background: #adadad;
     color: white;
     width: 900px;
     padding: 35px;
-    border-radius: 10px;
+    border-radius: 14px;
 }
 .tarn{
     display: flex;
@@ -166,7 +166,7 @@ a{
 
 .footer{
     display: flex;
-    background: #192c49;
+    background: rgb(28, 29, 25);
     width: auto;
     height: 90px;
     color: white;
