@@ -1,37 +1,50 @@
-body{
-    font-family: sans-serif ;
+* { 
+    font-family: sans-serif;
     margin: 0;
-    
+    padding: 0;
+    box-sizing: border-box;
+    /*outline: 2px solid red;*/
 }
 
 /* 1/5 */
-
-.header{
+.header {
     background: rgb(28, 29, 25);
-    height: 540px;
-    display: flex;
+    /*height: 450px;*/
+    display: flex; 
+    padding: 40px;
+    justify-content: space-evenly;
+    /*align-items: center;*/
+    flex-wrap: wrap;
+    /*gap: 200px;*/
 }
-.intro{
-    display: flex;
-    flex-direction: column;
-    margin-left: 150px;
-    margin-top: 30px;
+
+
+.header > * {
+    flex: 0 0 auto; 
+}
+
+.intro {
+    /*display: flex;*/
     color: rgb(255, 255, 255);
     width: 500px;
-    flex-shrink: 0;
+    height: 500px;
+
 }
-.heroup{
+
+.brand-name {
     font-size: 24px;
+    margin-bottom: 50px;
 }
-.herodown{
+
+.motto {
     font-size: 45px;
-    margin-top: 120px;
 }
-.herotext{
+
+.brand-text {
     font-size: 18px;
-    margin-top: 10px;
 }
-button{
+
+button {
     font-size: 17px;
     font-weight: 900;
     color: white;
@@ -43,42 +56,45 @@ button{
     border-bottom: 0px;
     border: none;
 }
-.outro{
-    display: flex;
-    flex-flow: row wrap;
-    gap: 25px;
-    justify-content: flex-end;
-    margin-right: 150px;
+
+.header-content {
+    width: 500px;
+    height: 500px;
 }
-a{
+
+.nav-list {
+    margin-bottom: 70px;
+    direction: rtl;
+}
+
+a {
     text-decoration: none;
     font-size: 18px;
     color: rgb(247, 243, 243);
-    margin-top: 25px;
 }
+
     
-.imga{
+.imga {
     width: 500px;
     height: 270px;
-    margin-top: -20px;
 }
 
 /* 2/5 */
 
-.bod{
+.bod {
     text-align: center;
 }
-.tut{
+.tut {
  text-align: center;
  margin-top: 5px;
  color: rgb(46, 63, 73);
 }
-.container{
+.container {
     display: flex;
     justify-content: center;
     gap: 40px;
 }
-.ex-title{
+.ex-title {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,14 +104,14 @@ a{
     margin-top: 50px;
     margin-bottom: 45px;
 }
-.imgtxt{
+.imgtxt {
     max-width: 200px;
     margin-bottom: 110px;
 }
 
 /* 3/5 */
 
-.vater{
+.vater {
     background: #dadada;
     height: 370px;
     color: rgb(57, 85, 100);
@@ -105,7 +121,7 @@ a{
     align-items: center;
     justify-content: center;
 }
-.schwester{
+.schwester {
     width: 750px;
     font-family: 'Times New Roman', Times, serif;
     
@@ -120,7 +136,7 @@ a{
 
 /* 4/5 */
 
-.whitey{
+.whitey {
     display: flex;
     background: white;
     justify-content: center;
@@ -128,7 +144,7 @@ a{
     height: 330px;
 }
 
-.warn{
+.warn {
     display: flex;
     background: #adadad;
     color: white;
@@ -136,27 +152,27 @@ a{
     padding: 35px;
     border-radius: 14px;
 }
-.tarn{
+.tarn {
     display: flex;
     flex-direction: column;
     width: 500px;
     margin-left: 90px;
 }
-.barn{
+.barn {
     display: flex;
 }
-.textwarn{
+.textwarn {
     font-size: 25px;
     margin-bottom: 5px;
 }
-.butti{
+.butti {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 100px;
     
 }
-.barn{
+.barn {
     border: white solid 2px;
     justify-content: center;
     padding: 7px 9px;
@@ -164,7 +180,7 @@ a{
 
 /* 5/5 */
 
-.footer{
+.footer {
     display: flex;
     background: rgb(28, 29, 25);
     width: auto;
