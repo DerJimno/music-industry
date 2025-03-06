@@ -33,7 +33,7 @@
 
 .brand-name {
     font-size: 24px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 .motto {
@@ -42,7 +42,7 @@
 
 .brand-text {
     font-size: 18px;
-    margin-top: 10px;
+    margin-top: 25px;
 }
 
 button {
@@ -56,6 +56,7 @@ button {
     border-radius: 8px;
     border-bottom: 0px;
     border: none;
+    margin-top: 25px;
 }
 
 .header-content {
